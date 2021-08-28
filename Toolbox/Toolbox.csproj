@@ -397,10 +397,10 @@
       <Name>Toolbox_Library</Name>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="..\Updater\Updater.csproj">
+    <!--<ProjectReference Include="..\Updater\Updater.csproj">
       <Project>{d82a2c08-2a65-43af-bda6-a36cc27aa003}</Project>
       <Name>Updater</Name>
-    </ProjectReference>
+    </ProjectReference>-->
   </ItemGroup>
   <ItemGroup>
     <Content Include="Gl_EditorFramework.dll">
@@ -609,7 +609,7 @@
     <Content Include="Lib\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Lib\Yaz0.dll">
+    <Content Include="Lib\yaz0.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Lib\yaz0_x86.dll" />

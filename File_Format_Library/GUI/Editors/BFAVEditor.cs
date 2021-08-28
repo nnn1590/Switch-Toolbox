@@ -43,7 +43,7 @@ namespace FirstPlugin
         }
 
         bool IsPlaying = false;
-        private void axWindowsMediaPlayer1_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
+        private void axWindowsMediaPlayer1_PlayStateChange(object sender, object e)
         {
             if (!IsPlaying)
             {
